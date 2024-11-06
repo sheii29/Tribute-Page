@@ -1,0 +1,94 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #FAF7F0;
+    color: #333;
+    margin: 0;
+    padding: 50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header {
+    background-color: #336699;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  #main {
+    max-width: 800px;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  #img-div {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #image {
+    display: block; 
+    max-width: 100%; 
+    height: auto; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+  
+  #img-caption {
+    font-style: italic;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  h2 {
+    color: #336699;
+    border-bottom: 2px solid #336699;
+    padding-bottom: 5px;
+  }
+  
+  .timeline {
+    margin-top: 20px;
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .timeline li {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-left: 4px solid #336699;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timeline li span {
+    font-weight: bold;
+    color: #336699;
+  }
+  
+  #tribute-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #336699;
+    text-decoration: none;
+  }
+  
+  #tribute-link:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #336699;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+  }
+  
